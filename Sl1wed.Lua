@@ -148,7 +148,7 @@ task.spawn(function()
 
         -- 🔥 USTAW TARGET RANGE
         if val == 101 then
-            targetDistance = math.random(5000000, 20000000) -- 5M → 20M
+            targetDistance = math.random(500000000, 200000000000) -- 5M → 20M
         else
             local base = val * 1000
             targetDistance = base + math.random(0, 9000)
